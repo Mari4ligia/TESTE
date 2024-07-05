@@ -49,7 +49,7 @@
 
 <div class="container">
   <h1>Academia</h1>
-  <img src="caminho_para_sua_logo.png" alt="Logo da Academia" class="logo">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canva.com%2Fpt_br%2Flogos%2Fmodelos%2Facademia%2F&psig=AOvVaw3Vc5XObmU57zFZcoTJUVxw&ust=1720283098809000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOjZv4qokIcDFQAAAAAdAAAAABAE" alt="Logo da Academia" class="logo">
   <h2>Vamos à academia hoje?</h2>
   
   <div class="buttons">
@@ -63,8 +63,7 @@
 <script>
   document.getElementById('btnSim').addEventListener('click', function() {
     document.getElementById('mensagem').innerHTML = '<h3>Certeza?? 🎉🎉</h3>';
-    // Aqui você pode adicionar a lógica para a animação de fogos de artifício
-    // Exemplo: iniciar uma animação ou mostrar uma imagem de fogos de artifício
+    
   });
 
   document.getElementById('btnNao').addEventListener('click', function() {
